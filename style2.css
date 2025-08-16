@@ -349,9 +349,13 @@ footer{
 
 }
 
-.footer__logo {
-  width: 70px;
-  height: 70px;
+.footer-logo{
+  margin-bottom: 20px;
+}
+
+.footer__logo--img {
+  width: 50px;
+  height: 50px;
 }
 
 .footer__social--list{
@@ -359,7 +363,7 @@ footer{
   width: 100%;
   max-width: 500px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer__social--link,
@@ -373,9 +377,6 @@ footer{
   right: 0;
 }
 
-.footer__logo{
-
-}
 
 .footer__anchor{
   position: relative  ;
